@@ -7,15 +7,19 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="sidebar" id="sidebar">
-    <img class="avatar" src="resources/profile.jpg" alt="Avatar">
-  </div>
+  
+  <div class="layout">
+    <div class="sidebar" id="sidebar">
+      <div class="avatar">
+        <img src="/Users/leaveittolou/Workspace/BenchWorkDocs/resources/profile.jpg" alt="Avatar">
+      </div>
+  
+      <div class="sidebar" id="sidebar-links"></div>
+    </div>
 
-  <div class="viewer" id="viewer">
+  <div class="viewer"id="viewer">
     Loading...
-
   </div>
-
 
   <button onclick="window.open(
   'https://github.com/ajMobileConsulting/BenchWork/issues/new?title=Request%20Access&body=' +
@@ -34,6 +38,8 @@ _Optional: Any additional comments or links to your GitHub profile or portfolio_
 )">
   Request Access
 </button>
+</div>
+
 
   <script src="app.js"></script>
   <script>

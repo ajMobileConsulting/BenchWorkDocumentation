@@ -9,7 +9,7 @@ async function fetchMarkdown(filePath) {
     const res = await fetch("https://api.github.com/repos/ajMobileConsulting/BenchWorkDocumentation/contents/docs");
     const files = await res.json();
   
-    const sidebar = document.getElementById("sidebar");
+    const sidebar = document.getElementById("sidebar-links");
     sidebar.innerHTML = files
       .filter(f => f.name.endsWith(".md"))
       .map(f => `<a href="#" onclick="fetchMarkdown('docs/${f.name}')">${f.name.replace('.md','')}</a>`)
