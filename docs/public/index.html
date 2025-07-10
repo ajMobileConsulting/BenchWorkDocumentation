@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BenchWork Docs</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div id="viewer">Loading...</div>
+
+  <button onclick="window.open('https://github.com/ajMobileConsulting/BenchWork/issues/new?title=Request%20Access&body=Hi,+I+would+like+access+to+XYZ+module.', '_blank')">
+    Request Access
+  </button>
+
+  <script src="app.js"></script>
+  <script>
+    listFilesInDocs();
+    fetchMarkdown("docs/index.md");
+  </script>
+</body>
+</html>
