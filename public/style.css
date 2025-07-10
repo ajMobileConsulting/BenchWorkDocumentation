@@ -4,7 +4,7 @@ body {
     margin: 0;
   }
   
-  #sidebar {
+  .sidebar {
     width: 200px;
     background: #f4f4f4;
     padding: 1rem;
@@ -13,7 +13,11 @@ body {
     box-shadow: 2px 0 4px rgba(0,0,0,0.1);
   }
   
-  #viewer {
+  .viewer {
     padding: 2rem;
     flex-grow: 1;
+  }
+
+  .avatar {
+    broder-radius: 50%;
   }
