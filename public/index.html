@@ -11,9 +11,23 @@
   <div id="viewer">Loading...</div>
 
 
-  <button onclick="window.open('https://github.com/ajMobileConsulting/BenchWork/issues/new?title=Request%20Access&body=Hi,+I+would+like+access+to+XYZ+module.', '_blank')">
-    Request Access
-  </button>
+  <button onclick="window.open(
+  'https://github.com/ajMobileConsulting/BenchWork/issues/new?title=Request%20Access&body=' +
+  encodeURIComponent(
+    `### Access Request Form
+
+**Full Name:**  
+**GitHub Username:**  
+**Email Address:**  
+**Project/Module You Are Requesting Access To:**  
+**Reason for Request:**  
+
+_Optional: Any additional comments or links to your GitHub profile or portfolio_`
+  ),
+  '_blank'
+)">
+  Request Access
+</button>
 
   <script src="app.js"></script>
   <script>
