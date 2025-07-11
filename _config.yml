@@ -1,0 +1,15 @@
+title: Bench Docs
+theme: just-the-Docs
+color_scheme: dark
+
+# Enable GitHub Pages-style permalinks
+permalink: pretty
+
+# Optional: to enable nesting and default behavior
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      nav_order: 1
