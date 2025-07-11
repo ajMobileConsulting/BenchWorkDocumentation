@@ -2,133 +2,133 @@
     "doc": "Getting Started",
     "title": "iOS: Get your apple’s ready…",
     "content": " ",
-    "url": "/getting-started-ios#ios-get-your-apples-ready",
+    "url": "/BenchWorkDocumentation/getting-started-ios#ios-get-your-apples-ready",
     
     "relUrl": "/getting-started-ios#ios-get-your-apples-ready"
   },"1": {
     "doc": "Getting Started",
     "title": "Getting Started",
     "content": " ",
-    "url": "/getting-started-ios",
+    "url": "/BenchWorkDocumentation/getting-started-ios",
     
     "relUrl": "/getting-started-ios"
   },"2": {
     "doc": "Getting Started",
     "title": "Getting Started",
     "content": "Welcome to your first challenge. ",
-    "url": "/ios/challenges/getting-started/",
+    "url": "/BenchWorkDocumentation/ios/challenges/getting-started/",
     
     "relUrl": "/ios/challenges/getting-started/"
   },"3": {
     "doc": "Getting Started",
     "title": "iOS: Get your apple’s ready…",
     "content": " ",
-    "url": "/getting-started-android#ios-get-your-apples-ready",
+    "url": "/BenchWorkDocumentation/getting-started-android#ios-get-your-apples-ready",
     
     "relUrl": "/getting-started-android#ios-get-your-apples-ready"
   },"4": {
     "doc": "Getting Started",
     "title": "Getting Started",
     "content": " ",
-    "url": "/getting-started-android",
+    "url": "/BenchWorkDocumentation/getting-started-android",
     
     "relUrl": "/getting-started-android"
   },"5": {
     "doc": "Challenges",
     "title": "Challenges",
     "content": "All challenges are used to test real production examples. sorting filtering sum arc calculations etc. ",
-    "url": "/android/challenges/",
+    "url": "/BenchWorkDocumentation/android/challenges/",
     
     "relUrl": "/android/challenges/"
   },"6": {
     "doc": "Welcome",
     "title": "Hello World this is documentation for Learning, Elevating, &amp; Researching multiple tech stacks",
     "content": " ",
-    "url": "/#hello-world-this-is-documentation-for-learning-elevating--researching-multiple-tech-stacks",
+    "url": "/BenchWorkDocumentation/#hello-world-this-is-documentation-for-learning-elevating--researching-multiple-tech-stacks",
     
     "relUrl": "/#hello-world-this-is-documentation-for-learning-elevating--researching-multiple-tech-stacks"
   },"7": {
     "doc": "Welcome",
     "title": "Welcome",
     "content": " ",
-    "url": "/",
+    "url": "/BenchWorkDocumentation/",
     
     "relUrl": "/"
   },"8": {
     "doc": "Challenges",
     "title": "Challenges",
     "content": "All challenges are used to test real production examples. sorting filtering sum arc calculations etc. ",
-    "url": "/ios/challenges/",
+    "url": "/BenchWorkDocumentation/ios/challenges/",
     
     "relUrl": "/ios/challenges/"
   },"9": {
     "doc": "iOS",
     "title": "iOS",
     "content": " ",
-    "url": "/ios/",
+    "url": "/BenchWorkDocumentation/ios/",
     
     "relUrl": "/ios/"
   },"10": {
     "doc": "iOS",
     "title": "Languages",
     "content": ". | Swift | Objective-C | . ",
-    "url": "/ios/#languages",
+    "url": "/BenchWorkDocumentation/ios/#languages",
     
     "relUrl": "/ios/#languages"
   },"11": {
     "doc": "iOS",
     "title": "Architectures",
     "content": ". | MVC | MVP | MVVM | MVVM+C | VIPER | . ",
-    "url": "/ios/#architectures",
+    "url": "/BenchWorkDocumentation/ios/#architectures",
     
     "relUrl": "/ios/#architectures"
   },"12": {
     "doc": "Projects",
     "title": "Projects here!",
     "content": " ",
-    "url": "/ios/projects/#projects-here",
+    "url": "/BenchWorkDocumentation/ios/projects/#projects-here",
     
     "relUrl": "/ios/projects/#projects-here"
   },"13": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
-    "url": "/ios/projects/",
+    "url": "/BenchWorkDocumentation/ios/projects/",
     
     "relUrl": "/ios/projects/"
   },"14": {
     "doc": "Android",
     "title": "Android",
     "content": " ",
-    "url": "/android/",
+    "url": "/BenchWorkDocumentation/android/",
     
     "relUrl": "/android/"
   },"15": {
     "doc": "Android",
     "title": "Languages",
     "content": ". | Kotlin | Java | . ",
-    "url": "/android/#languages",
+    "url": "/BenchWorkDocumentation/android/#languages",
     
     "relUrl": "/android/#languages"
   },"16": {
     "doc": "Android",
     "title": "Architectures",
     "content": ". | MVC | MVVM | MVVM+C | VIPER | . ",
-    "url": "/android/#architectures",
+    "url": "/BenchWorkDocumentation/android/#architectures",
     
     "relUrl": "/android/#architectures"
   },"17": {
     "doc": "Search & Filter",
     "title": "Search &amp; Filter baby",
     "content": " ",
-    "url": "/ios/challenges/search-filter/#search--filter-baby",
+    "url": "/BenchWorkDocumentation/ios/challenges/search-filter/#search--filter-baby",
     
     "relUrl": "/ios/challenges/search-filter/#search--filter-baby"
   },"18": {
     "doc": "Search & Filter",
     "title": "Search & Filter",
     "content": " ",
-    "url": "/ios/challenges/search-filter/",
+    "url": "/BenchWorkDocumentation/ios/challenges/search-filter/",
     
     "relUrl": "/ios/challenges/search-filter/"
   }
