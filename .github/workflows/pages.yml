@@ -16,21 +16,36 @@ concurrency:
 
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Pages
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2  # match your local dev Ruby version
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v3
 
-      - name: Upload static HTML
+      - name: Upload generated site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: _site  # ✅ This is the Jekyll output folder
 
       - name: Deploy to GitHub Pages
         id: deployment
