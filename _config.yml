@@ -1,6 +1,8 @@
 title: Bench Docs
 theme: just-the-Docs
 color_scheme: dark
+url: "https://ajmobileconsulting.github.io"
+baseurl: "/BenchWorkDocumentation"
 
 # Enable GitHub Pages-style permalinks
 permalink: pretty
